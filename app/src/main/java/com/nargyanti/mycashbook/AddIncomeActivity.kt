@@ -30,6 +30,7 @@ class AddIncomeActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_income)
+        supportActionBar?.title = "Tambah Pemasukan"
 
         etDate = findViewById(R.id.et_date)
         etAmount = findViewById(R.id.et_amount)

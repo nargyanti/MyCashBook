@@ -28,6 +28,7 @@ class SettingsActivity : AppCompatActivity(), View.OnClickListener  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
+        supportActionBar?.title = "Pengaturan"
 
         etOldPassword = findViewById(R.id.et_old_password)
         etNewPassword = findViewById(R.id.et_new_password)

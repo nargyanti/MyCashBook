@@ -28,6 +28,7 @@ class AddExpenseActivity : AppCompatActivity(), View.OnClickListener  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_expense)
+        supportActionBar?.title = "Tambah Pengeluaran"
 
         etDate = findViewById(R.id.et_date)
         etAmount = findViewById(R.id.et_amount)

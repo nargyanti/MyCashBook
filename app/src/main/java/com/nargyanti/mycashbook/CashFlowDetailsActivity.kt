@@ -27,14 +27,13 @@ class CashFlowDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cash_flow_details)
+        supportActionBar?.title = "Detail Cash Flow"
 
         rvTransaction = findViewById(R.id.rv_transaction)
         rvTransaction.setHasFixedSize(true)
 
         userId = intent.getIntExtra(MainActivity.EXTRA_USER_ID, 0)
         dbHandler = DatabaseHelper(this)
-
-        supportActionBar?.title = "Detail Cash Flow"
 
         showRecyclerList()
     }
