@@ -12,4 +12,13 @@
     <string name="ganti_password">Ganti Password</string>
     <string name="password_saat_ini">Password Saat Ini</string>
     <string name="password_baru">Password Baru</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="rangkuman_bulan_ini">Rangkuman Bulan Ini</string>
+    <string name="amount">1.200.000</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="rp">Rp</string>
+    <string name="deskripsi">Lorem ipsum dolor sit amet</string>
 </resources>
